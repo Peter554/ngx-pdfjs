@@ -13,14 +13,6 @@ export class PageViewerComponent implements OnChanges {
   @Input()
   public paddingTop = '0';
 
-  @HostBinding('style.width')
-  @Input()
-  public width = '100%';
-
-  @HostBinding('style.max-width')
-  @Input()
-  public maxWidth = '800px';
-
   @Input()
   public quality = 2;
 
