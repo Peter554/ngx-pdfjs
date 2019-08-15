@@ -1,0 +1,9 @@
+<ng-container *ngFor="let page of pages; let first = first">
+  <app-page-viewer
+    [page]="page"
+    [width]="width"
+    [maxWidth]="maxWidth"
+    [paddingTop]="first ? '0' : spacerSize"
+    [quality]="quality"
+  ></app-page-viewer>
+</ng-container>
